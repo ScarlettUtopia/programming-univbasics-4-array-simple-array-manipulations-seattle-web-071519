@@ -3,4 +3,4 @@ describe "#using_push" do
   countries_in_western_europe = ["Austria","Belgium","France","Germany","Luxembourg"]
   next_country = "Monaco"
   updated_array = using_push (countries_in_western_europe, next_country)
-  expect
+  expect(updated_array.last)
